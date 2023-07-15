@@ -23,7 +23,6 @@ ____
 - **Django 4.2**
 - **Django REST framework 3.14.0**
 - **Django-filter 23.2**
-- **DRF Spectacular 0.26.3**
 - **Postgres SQL**
 - **Docker, Docker-compose**
 
