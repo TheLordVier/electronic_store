@@ -4,15 +4,15 @@ from supplier_network import views
 
 # Создаем роутер для модели Factory (Завод)
 router_factory = routers.SimpleRouter()
-router_factory.register(r"factory", views.FactoryViews)
+router_factory.register(r"factories", views.FactoryViews)
 
 # Создаем роутер для модели RetailsNetwork (Розничная сеть)
 router_retail = routers.SimpleRouter()
-router_retail.register(r"retail", views.RetailsNetworkViews)
+router_retail.register(r"retails", views.RetailsNetworkViews)
 
 # Создаем роутер для модели IndividualEntrepreneur (Индивидуальный предприниматель)
 router_individual = routers.SimpleRouter()
-router_individual.register(r"individual", views.IndividualEntrepreneurViews)
+router_individual.register(r"individuals", views.IndividualEntrepreneurViews)
 
 # Объявляем пустой список urlpatterns
 urlpatterns = []
