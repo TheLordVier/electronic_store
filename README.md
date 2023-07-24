@@ -55,7 +55,7 @@ ____
 ### Подготовка и запуск приложения:
 
 1. **Клонируем приложение.**
- - в терминале вводим команду `git clone https://github.com/TheLordVier/electronic_store.git`
+ - в терминале вводим команду `git clone https://github.com/TheLordVier/electronic_store.git
 2. **Создаём виртуальное окружение.**
  - в терминале вводим команду в директории проекта `python -m venv venv`
 3. **Устанавливаем зависимости приложения**
