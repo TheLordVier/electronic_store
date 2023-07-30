@@ -5,7 +5,7 @@ Project developed by: Mikhailov Alexander
 ____
 
 The application is an API with CRUD functionality for suppliers, products and contacts.
-There are three types of suppliers in the application - Factory, Retailer and Individual Entrepreneur, each of which 
+There are three types of suppliers in the application - Factory, Retail Network and Individual Entrepreneur, each of which 
 occupies a certain position in the hierarchy. You can create different suppliers and establish links between them,
 change suppliers and edit their fields. Access to the API is granted only to authorized users with the parameter
 is_active (permissions.py).
